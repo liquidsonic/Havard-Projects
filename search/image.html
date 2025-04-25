@@ -7,17 +7,23 @@
   <body>
     <div class="button-grid">
       <div class="button-wrapper">
-        <a href="image.html" class="search-btn">image search</a>
+        <a href="index.html" class="search-btn">Google search</a>
       </div>
       <div class="button-wrapper">
-        <input type="submit" value="Advanced Search" class="search-btn" />
+        <a href="advanced.html" class="search-btn">advanced search</a>
       </div>
     </div>
     <form action="https://google.com/search">
       <div class="search-container">
         <div class="search-form">
           <div class="input-wrapper">
-            <input type="text" name="q" class="search-box" />
+            <input
+              type="text"
+              name="q"
+              class="search-box"
+              placeholder="Search images..."
+            />
+            <input type="hidden" name="tbm" value="isch" />
           </div>
         </div>
       </div>
